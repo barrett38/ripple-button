@@ -1,7 +1,7 @@
 import React from "react";
-import "./RippleButton.css";
+import "./ExpandingButton.css";
 
-const RippleButton = ({ label = "Click Me", onClick }) => {
+const ExpandingButton = ({ label = "Click Me", onClick }) => {
   return (
     <button className="animated-button" onClick={onClick}>
       {label}
@@ -10,4 +10,4 @@ const RippleButton = ({ label = "Click Me", onClick }) => {
   );
 };
 
-export default RippleButton;
+export default ExpandingButton;

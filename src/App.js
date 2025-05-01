@@ -1,5 +1,5 @@
 import React from "react";
-import AnimatedButton from "./RippleButton/RippleButton";
+import ExpandingButton from "./ExpandingButton/ExpandingButton";
 
 function App() {
   const handleClick = () => {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <AnimatedButton label="Let's Go!" onClick={handleClick} />
+      <ExpandingButton label="Let's Go!" onClick={handleClick} />
     </div>
   );
 }
