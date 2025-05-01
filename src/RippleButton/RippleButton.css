@@ -5,6 +5,7 @@
 .animated-button {
   position: relative;
   padding: 12px 24px;
+  /* More colors can be added or removed in the linear-gradient */
   background: linear-gradient(135deg, blue, #a777e3);
   color: white;
   font-size: 1rem;
